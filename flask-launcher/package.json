@@ -13,14 +13,14 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [{
-      "command": "flask-launcher.runFlask",
+      "command": "flask-launcher.runProject",
       "title": "Spusti script",
       "icon": "$(play)"
     }]
   },
   "menus": {
     "editor/title": [{
-        "command": "flask-launcher.runFlask",
+        "command": "flask-launcher.runProject",
         "group": "navigation"
     }]
   },
