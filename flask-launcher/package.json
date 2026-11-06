@@ -3,13 +3,16 @@
   "displayName": "Flask launcher",
   "description": "batch runner for vs code in a virtual enviroment",
   "version": "0.0.1",
+  "publisher": "5-tev3",
   "engines": {
-    "vscode": "^1.145.0"
+    "vscode": "^1.41.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:flask-launcher.runProject"
+  ],
   "main": "./extension.js",
   "contributes": {
     "commands": [{
@@ -30,7 +33,7 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.145.0",
+    "@types/vscode": "^1.41.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "24.x",
     "eslint": "^10.5.0",
