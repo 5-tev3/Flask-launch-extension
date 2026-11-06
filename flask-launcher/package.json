@@ -22,7 +22,7 @@
           "command": "flask-launcher.runProject",
           "group": "navigation"
       }]
-    },
+    }
   },
   "scripts": {
     "lint": "eslint .",
