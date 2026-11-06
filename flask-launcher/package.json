@@ -16,13 +16,13 @@
       "command": "flask-launcher.runProject",
       "title": "Spusti script",
       "icon": "$(play)"
-    }]
-  },
-  "menus": {
+    }],
+    "menus": {
     "editor/title": [{
         "command": "flask-launcher.runProject",
         "group": "navigation"
     }]
+  },
   },
   "scripts": {
     "lint": "eslint .",
