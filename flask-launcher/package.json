@@ -18,6 +18,14 @@
       "icon": "$(play)"
     }]
   },
+  "menus": {
+    "editor/title": [
+      {
+        "command": "flask-launcher.runFlask",
+        "group": "navigation",
+      }
+    ]
+  },
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
