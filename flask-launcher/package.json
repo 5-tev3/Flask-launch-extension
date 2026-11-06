@@ -21,7 +21,7 @@
   "menus": {
     "editor/title": [{
         "command": "flask-launcher.runFlask",
-        "group": "navigation",
+        "group": "navigation"
     }]
   },
   "scripts": {
