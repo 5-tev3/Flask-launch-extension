@@ -18,11 +18,11 @@
       "icon": "$(play)"
     }],
     "menus": {
-    "editor/title": [{
-        "command": "flask-launcher.runProject",
-        "group": "navigation"
-    }]
-  },
+      "editor/title": [{
+          "command": "flask-launcher.runProject",
+          "group": "navigation"
+      }]
+    },
   },
   "scripts": {
     "lint": "eslint .",
