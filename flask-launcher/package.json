@@ -12,15 +12,10 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "debuggers": [
-      {
-        "type": "flask virtual runner",
-        "languages": ["python"]
-      }
-    ],
     "commands": [{
-      "command": "flask-launcher.helloWorld",
-      "title": "Hello World"
+      "command": "flask-launcher.runFlask",
+      "title": "Spusti script",
+      "icon": "$(play)"
     }]
   },
   "scripts": {
