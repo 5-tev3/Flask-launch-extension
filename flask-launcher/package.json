@@ -19,12 +19,10 @@
     }]
   },
   "menus": {
-    "editor/title": [
-      {
+    "editor/title": [{
         "command": "flask-launcher.runFlask",
         "group": "navigation",
-      }
-    ]
+    }]
   },
   "scripts": {
     "lint": "eslint .",
