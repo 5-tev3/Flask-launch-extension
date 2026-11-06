@@ -1,7 +1,7 @@
 {
   "name": "flask-launcher",
   "displayName": "Flask launcher",
-  "description": "batch funner for vs code",
+  "description": "batch runner for vs code in a virtual enviroment",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.145.0"
@@ -12,6 +12,12 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
+    "debuggers": [
+      {
+        "type": "flask virtual runner",
+        "languages": ["python"]
+      }
+    ],
     "commands": [{
       "command": "flask-launcher.helloWorld",
       "title": "Hello World"
