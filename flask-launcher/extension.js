@@ -28,7 +28,11 @@ function activate(context) {
         const cesta_ke_scriptu = context.asAbsolutePath(path.join('scripts', 'run.bat'));
         let terminal = vscode.window.activeTerminal;
         if (!terminal) {
-            terminal = vscode.window.createTerminal('Flask Launcher');
+            terminal = vscode.window.createTerminal({
+                name: "Flask launcher",
+                shellPath: "cmd.exe"
+            });
+
         }
         terminal.show();
         terminal.sendText(`"${cesta_ke_scriptu}" "${cesta}"`);
