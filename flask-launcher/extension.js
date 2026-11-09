@@ -35,7 +35,7 @@ function activate(context) {
 
         }
         terminal.show();
-        terminal.sendText(`"${cesta_ke_scriptu}" "${cesta}"`);
+        terminal.sendText(`cmd.exe /c ""${cesta_ke_scriptu}" "${cesta}""`);
     });
 
     const disposableHelloWorld = vscode.commands.registerCommand('flask-launcher.helloWorld', function () {
@@ -43,8 +43,13 @@ function activate(context) {
         // Display a message box to the user
         vscode.window.showInformationMessage('Hello World from Flask launcher!');
     });
+    const tlacitko = vscode.windowcreatetlacitko(vscode.StatusBarAlignment.left, 100);
+    tlacitko.command = "flask-launcher.runProject";
+    tlacitko.text = "$(play) Spusti Flask";
+    tlacitko.tooltip = "Spusti vas Flask projekt";
+    tlacitko.show(); 
 
-    context.subscriptions.push(disposableRun, disposableHelloWorld);
+    context.subscriptions.push(statusBarItem);
 }
 
 // This method is called when your extension is deactivated
