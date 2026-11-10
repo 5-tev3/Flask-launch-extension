@@ -1,1 +1,0 @@
-Rozšíření pro VS code, které spustí flask projekt ve virtuálním prostředí.
