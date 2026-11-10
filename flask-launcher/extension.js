@@ -43,7 +43,7 @@ function activate(context) {
         // Display a message box to the user
         vscode.window.showInformationMessage('Hello World from Flask launcher!');
     });
-    const tlacitko = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.left, 100);
+    const tlacitko = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 100);
     tlacitko.command = "flask-launcher.runProject";
     tlacitko.text = "$(play) Spusti Flask";
     tlacitko.tooltip = "Spusti vas Flask projekt";
