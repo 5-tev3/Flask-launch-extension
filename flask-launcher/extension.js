@@ -38,11 +38,6 @@ function activate(context) {
         terminal.sendText(`cmd.exe /c ""${cesta_ke_scriptu}" "${cesta}""`);
     });
 
-    const disposableHelloWorld = vscode.commands.registerCommand('flask-launcher.helloWorld', function () {
-        // The code you place here will be executed every time your command is executed
-        // Display a message box to the user
-        vscode.window.showInformationMessage('Hello World from Flask launcher!');
-    });
     const tlacitko = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 100);
     tlacitko.command = "flask-launcher.runProject";
     tlacitko.text = "$(play) Spusti Flask";

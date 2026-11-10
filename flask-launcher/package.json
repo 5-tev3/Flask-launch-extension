@@ -1,7 +1,7 @@
 {
-  "name": "flask-launcher",
+  "name": "Flask-launcher",
   "displayName": "Flask launcher",
-  "description": "batch runner for vs code in a virtual enviroment",
+  "description": "Batch runner for vs code in a virtual enviroment",
   "version": "0.0.1",
   "publisher": "5-tev3",
   "engines": {
