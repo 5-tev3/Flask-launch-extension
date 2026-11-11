@@ -35,7 +35,7 @@ function activate(context) {
 
         }
         terminal.show();
-        terminal.sendText(`""${cesta_ke_scriptu}" "${cesta}""`);
+        terminal.sendText(`"${cesta_ke_scriptu}" "${cesta}"`);
     });
 
     const tlacitko = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 100);
