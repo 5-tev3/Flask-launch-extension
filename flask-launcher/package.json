@@ -2,7 +2,7 @@
   "name": "Flask-launcher",
   "displayName": "Flask launcher",
   "description": "Batch runner for vs code in a virtual enviroment",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "5-tev3",
   "engines": {
     "vscode": "^1.30.0"
