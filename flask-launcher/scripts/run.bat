@@ -10,7 +10,7 @@ if not exist "%python_lokace%\python.exe" (
 )
 cd /d "%USERPROFILE%\Virtual-flask"
 "%python_lokace%\python.exe" -m venv virtual-Flask
-cd /d "%USERPROFILE%\documents\virtual-Flask\Scripts"
+cd /d "%USERPROFILE%\Virtual-Flask\Scripts"
 call activate.bat
 python -m pip install flask
 python -m flask --app "%soubor%" run --debug
