@@ -1,5 +1,5 @@
 @echo off
-set "soubor=~%1"
+set "soubor=%~1"
 set "python_lokace=%USERPROFILE%\Virtual-flask\python"
 set "installer=%TEMP%\python.exe"
 set "python_install_adresa=https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe"
