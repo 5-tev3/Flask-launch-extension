@@ -1,5 +1,5 @@
 # Flask-launch-extension
-Creates a virtual workspace, downloads all necesary Flask files into the current users documenty directory and runs any Flask project open in VS code editor.<br>
+Creates a virtual workspace, downloads all necesary Flask files into the current users root directory and runs any Flask project open in VS code editor.<br>
 Makes its own embedded python, pip and venv.<br>
 No admin rights needed.
 # Requirements
