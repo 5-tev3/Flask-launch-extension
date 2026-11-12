@@ -27,6 +27,6 @@ if not exist "%venv_slozka%\Scripts\activate.bat" (
 )
 
 call "%venv_slozka%\Scripts\activate.bat"
-python -m pip install flask
+python -m pip --no-cache-dir install flask
 python -m flask --app "%soubor%" run --debug
 cmd /k

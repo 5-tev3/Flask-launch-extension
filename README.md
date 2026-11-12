@@ -1,4 +1,3 @@
-# !!Pridat chache argument!!
 # Flask-launch-extension
 Creates a virtual workspace, downloads all necesary Flask files into the current users documenty directory and runs any Flask project open in VS code editor.
 # Requirements
