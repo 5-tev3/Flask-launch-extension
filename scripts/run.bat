@@ -8,6 +8,9 @@ set "pip_url=https://bootstrap.pypa.io/get-pip.py"
 set "pip_instalace=%TEMP%\get-pip.py"
 
 if not exist "%python_slozka%\python.exe" (
+
+    echo "Downloading python"
+
     if not exist "%python_slozka%" mkdir "%python_slozka%"
         
     curl -sSL "%python_zip_url%" -o "%zip_soubor%"
